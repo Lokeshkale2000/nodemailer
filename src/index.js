@@ -18,8 +18,7 @@ const server = http.createServer((request, response) => {
 
         console.log("Email sent successfully!");
         response.end();
-       
-        
+    
         
     });
 });
